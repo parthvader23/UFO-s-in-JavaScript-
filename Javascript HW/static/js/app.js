@@ -77,7 +77,7 @@ filterTable()
     
 
 //Attach an event to listen for changes to each filter
-d3.selectALL(".filter").on("change", updateFilters);
+d3.selectAll(".filter").on("change", updateFilters);
 
 
 
